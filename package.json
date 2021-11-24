@@ -1,0 +1,35 @@
+{
+  "name": "sample",
+  "version": "0.1.0",
+  "main": "package/index.js",
+  "scripts": {
+    "lint": "eslint . --ext .js --ignore-path .eslintignore"
+  },
+  "description": "deview 2021 sample",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+
+  "dependencies": {
+    "node-emoji": "^1.10.0",
+    "request": "^2.88.2",
+    "underscore": "^1.11.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.10.0",
+    "eslint-plugin-jest": "^24.1.0",
+    "jest": "^26.4.2",
+    "moment": "^2.29.0",
+    "prettier": "^2.1.2"
+  },
+  "engines": {
+    "node" : ">=12.16.1"
+  },
+  "keywords": [
+    "devOps"
+  ],
+  "license": "MIT"
+}
